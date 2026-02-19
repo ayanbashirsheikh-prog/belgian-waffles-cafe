@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navLink {
+    @apply text-gray-700 dark:text-gray-300 hover:text-orange-500 transition-colors;
+  }
+}
